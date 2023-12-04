@@ -75,11 +75,11 @@
 			<version>3.12.0</version>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-jpamodelgen</artifactId>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 
 		<!-- Segurança -->
 		<dependency>
