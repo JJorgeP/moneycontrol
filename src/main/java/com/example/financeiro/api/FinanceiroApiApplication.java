@@ -3,8 +3,6 @@ package com.example.financeiro.api;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.support.ResourceBundleMessageSource;
 
 import com.example.financeiro.api.config.property.FinanceiroApiProperty;
 
@@ -16,12 +14,12 @@ public class FinanceiroApiApplication {
 		SpringApplication.run(FinanceiroApiApplication.class, args);
 	}
 	
-	@Bean(name="messageSource")
-    public ResourceBundleMessageSource bundleMessageSource() {
-        ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
-        messageSource.setBasename("messages");
-        messageSource.setDefaultEncoding("UTF-8");
-    return messageSource;
-    }
+//	@Bean(name="messageSource")
+//    public ResourceBundleMessageSource bundleMessageSource() {
+//        ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
+//        messageSource.setBasename("messages");
+//        messageSource.setDefaultEncoding("UTF-8");
+//    return messageSource;
+//    }
 
 }
