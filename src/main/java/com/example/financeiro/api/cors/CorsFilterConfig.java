@@ -19,7 +19,7 @@ import com.example.financeiro.api.config.property.FinanceiroApiProperty;
 
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE)
-public class CorsFilter implements Filter {
+public class CorsFilterConfig implements Filter {
 	
 	@Autowired
 	private FinanceiroApiProperty financeiroApiProperty; // TODO: Configurar para diferentes ambientes
