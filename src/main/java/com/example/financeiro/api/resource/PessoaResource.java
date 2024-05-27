@@ -40,7 +40,7 @@ public class PessoaResource {
 	private ApplicationEventPublisher publisher;
 	
 //	@GetMapping
-//	@PreAuthorize("hasAuthority('ROLE_CADASTRAR_PESSOA') and hasAuthority('SCOPE_read')")
+//	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_PESSOA') and hasAuthority('SCOPE_read')")
 //	public List<Pessoa> lista() {
 //		return pessoaRepository.findAll(); 
 //	}
