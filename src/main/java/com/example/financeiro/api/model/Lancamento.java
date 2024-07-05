@@ -34,7 +34,7 @@ public class Lancamento {
 	private LocalDate dataVencimento;
 	
 	@Column(name = "data_pagamento")
-	@JsonFormat(pattern = "dd/MM/yyyy")
+	@JsonFormat(pattern = "yyyy-MM-dd")
 	private LocalDate dataPagamento;
 	
 	@NotNull
